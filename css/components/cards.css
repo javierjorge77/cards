@@ -1,0 +1,94 @@
+/* Category*/
+.card-category {
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+/* Product*/
+.card-product {
+display: flex;
+align-items: center;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+background: white;
+
+
+}
+
+.card-product img {
+  height: 200px;
+  width: 200px;
+  object-fit:initial;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.card-product .product-info {
+  padding: 20px;
+}
+
+
+.card-product p {
+
+  line-height: 1.41;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+/* Status*/
+
+.card-status {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.card-status > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  -o-object-position: center;
+
+}
+
+.card-status h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-status p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-status .card-status-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-status-infos .card-status-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+.avatar-bordered {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
